@@ -73,10 +73,10 @@ const SEO = ({ description, lang, meta, title }) => {
         },
       ].concat(meta)}
     >
-      <link rel="preload" as="font" href="/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2" type="font/woff2" crossOrigin="anonymous" />
-      <link rel="preload" as="font" href="/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2" type="font/woff2" crossOrigin="anonymous" />
-      <link rel="preload" as="font" href="/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2" type="font/woff2" crossOrigin="anonymous" />
-      <link rel="preload" as="font" href="/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2" type="font/woff2" crossOrigin="anonymous" />
+      <link rel="preload" as="font" href="/fonts/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2" type="font/woff2" crossOrigin="anonymous" />
+      <link rel="preload" as="font" href="/fonts/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2" type="font/woff2" crossOrigin="anonymous" />
+      <link rel="preload" as="font" href="/fonts/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2" type="font/woff2" crossOrigin="anonymous" />
+      <link rel="preload" as="font" href="/fonts/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2" type="font/woff2" crossOrigin="anonymous" />
     </Helmet>
   )
 }
