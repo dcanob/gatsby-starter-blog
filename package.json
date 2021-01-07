@@ -45,17 +45,18 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
+    "build:clean:prod": "gatsby clean && gatsby build",
+    "build:clean:prod:serve": "gatsby clean && gatsby build && gatsby serve",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop -S",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "browserslist": [
-    ">0.15%",
-    "not ie <= 9",
-    "not dead"
+    ">0.1% and last 2 versions and not ie <= 9 and not dead"
   ]
 }
