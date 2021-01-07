@@ -72,6 +72,13 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-web-vitals`,
+      options: {
+        trackingId: `G-PQPEL1YLJD`,
+        metrics: [`FID`, `TTFB`, `LCP`, `CLS`, `FCP`]
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
