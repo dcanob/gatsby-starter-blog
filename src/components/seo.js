@@ -10,10 +10,6 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Font1 from "../../static/fonts/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2"
-import Font2 from "../../static/fonts/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2"
-import Font3 from "../../static/fonts/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2"
-import Font4 from "../../static/fonts/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2"
 
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
