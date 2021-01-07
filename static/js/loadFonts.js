@@ -72,5 +72,5 @@ function initfonts() {
 window.addEventListener('load', function () {
     setTimeout(function () {
         initfonts();
-    }, 10);
+    }, timeoutloadjs);
 });
