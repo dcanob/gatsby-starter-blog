@@ -1,0 +1,4 @@
+{
+  "vars": { "account": "G-PQPEL1YLJD" },
+  "triggers": { "trackPageview": { "on": "visible", "request": "pageview" } }
+}

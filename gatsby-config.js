@@ -79,6 +79,26 @@ module.exports = {
         metrics: [`FID`, `TTFB`, `LCP`, `CLS`, `FCP`]
       },
     },
+    {
+      resolve: `gatsby-plugin-amp`,
+      options: {
+        analytics: {
+          type: 'gtag',
+          dataCredentials: 'include',
+          config: {
+            vars: {
+              gtag_id: `G-PQPEL1YLJD`
+            },
+          },
+        },
+        canonicalBaseUrl: 'https://gatsby.dcanob.dev/',
+        components: ['amp-img'],
+        excludedPaths: ['/404*', '/'],
+        pathIdentifier: '/amp/',
+        relAmpHtmlPattern: '{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}',
+        useAmpClientIdApi: true,
+      },
+    },    
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

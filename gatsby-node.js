@@ -54,6 +54,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           nextPostId,
         },
       })
+
+      createPage({
+        path: `${post.fields.slug}/amp/`,
+        component: blogPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      })
+
     })
   }
 }
