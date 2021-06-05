@@ -83,7 +83,7 @@ const SEO = ({ description, lang, meta, title }) => {
         }
         `}</script>
       <script defer src="/js/loadFonts.js"></script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60bb3a795b47f2b3"></script>
+    <script defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60bb3a795b47f2b3"></script>
 </Helmet>
   )
 }
